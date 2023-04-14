@@ -21,3 +21,19 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 });
+
+
+// psudo code from class
+//  Calendar App
+
+// Read from localStrorage
+//  Populate page with data if exists in localStorage
+
+// click event with delegation to target the text area assoc with the save button
+// use the sibling DOM method to traverse the DOM, event.target parent/sibling
+//  capture the value of the text area, save string to local storage 
+
+// Use Dayjs to get current time use military time
+// read the value of the time block from the html
+// if statement that compares the vales and adds a class to change the color
+// loop through html elements and read a data-attribute time
