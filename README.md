@@ -1,5 +1,4 @@
-# Work-Day-Scheduler
-Add important events to a daily planner
+
 # Work Day Scheduler
 
 ## Add important events to a daily planner
@@ -14,7 +13,7 @@ This challenge assignment begins with starter code of a simple scheduling app an
 - [Bootstrap 5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
 Below is a short video of the appearance and functionality of this application:
-![Work-Day-Schedular Application Behavior](https://github.com/Joecode22/Work-Day-Schedular/blob/main/assets/images/app.gif "Work-Day-Schedular Application Behavior")
+![Work-Day-Schedular Application Behavior](assets/images/app.gif "Work-Day-Schedular Application Behavior")
 
 ## User Story
 
@@ -45,12 +44,12 @@ There is no installation requirement
 ## Usage
 
 This project is deployed on github pages.
-Follow this link to view: <https://joecode22.github.io/PasswordGenerator/>
+Follow this link to view: <https://joecode22.github.io/Work-Day-Scheduler/>
 
 ## Credits
 
 This project assignment began with starter code provided from the following repository:
-<https://github.com/coding-boot-camp/friendly-parakeet>
+<https://github.com/coding-boot-camp/crispy-octo-meme>
 The README for this project incorporates text from the project challenge assignment README from class.
 
 ## License
