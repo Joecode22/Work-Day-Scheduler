@@ -38,17 +38,27 @@ $(document).ready(function() {
   // TODO: Add code to get any user input that was saved in localStorage and set
   //loop through local storage
   for (var i= 0; i < localStorage.length; i++){
-  const key = localStorage.key(i);
-  if (key.startsWith('hour')){
-   const splitKey = key.split('-')
-   keyNum = parseInt(splitKey[1])
-   console.log(keyNum)
+    const key = localStorage.key(i);
+    if (key.startsWith('hour')){
+    const splitKey = key.split('-')
+    keyNum = parseInt(splitKey[1])
+    $("div[id^='hour']").each(function() {
+      const planHour = parseInt(this.id.split('-')[1]);
+      if (planHour == keyNum) {
+      console.log(planHour, keyNum, 'ding!')
+      console.log(localStorage.getItem(key))
+      console.log($(this).find('textarea').val(localStorage.getItem(key)));
+      }
+    });
   }};
+});
+
+
+
+
 
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
-  //
-  });
 
 // psudo code from class
 //  Calendar App
